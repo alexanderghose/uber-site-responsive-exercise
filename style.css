@@ -1,0 +1,30 @@
+/* Keeps subheadings honest ;) */
+h3 {
+  margin: 0;
+}
+
+/* Main container - phone (mobile first!) */
+.uber-container-3-items {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+/* Individual item container - this keeps all our SVG, heading and para content together */
+.uber-indiv-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.uber-indiv-text-container {
+  padding: 20px;
+}
+
+/* This keeps the SVGs a static size, which matches what UBER does */
+.uber-indiv-image-container svg {
+  height: 120px;
+  padding: 20px;
+  width: 120px;
+}
